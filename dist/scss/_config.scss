@@ -1,0 +1,9 @@
+$blue-color: #12a4d9;
+$pink-color: #d9138a;
+$white-color: #fffafa;
+
+@mixin flex-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
