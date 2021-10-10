@@ -60,14 +60,6 @@ searchButton.addEventListener("click", async (e) => {
     return bookContainer;
   });
 
-  // let bookDesc = document.createElement("div");
-  // bookDesc.classList.add("bookDesc");
-  // let bookDescText = document.createTextNode(
-  //   `Description: ${bookObject.description}`
-  // );
-  // bookDesc.appendChild(bookDescText);
-  // bookContainer.appendChild(bookDesc);
-
   let bookGridItems = document.querySelector(".container__bookGrid__items");
   // const append = (parent) => (child) => parent.appendChild(child);
   bookSearchItems.forEach((div) => {
@@ -81,21 +73,3 @@ clearButton.addEventListener("click", () => {
   searchInput.value = null;
   location.reload();
 });
-
-// const bookDesc = document.createElement("div");
-// bookDesc.classList.add("bookDesc");
-// let bookDescText = document.createTextNode(
-//   `Description: ${bookObject.description}`
-// );
-
-// bookDesc.appendChild(bookDescText);
-
-// //Adding some styling to the div//
-// bookDesc.style.border = "black solid 1px";
-// bookDesc.style.display = "flex";
-// bookDesc.style.alignItems = "center";
-// bookDesc.style.textAlign = "center";
-// bookDesc.style.marginLeft = "20%";
-
-// return bookDesc;
-// });
